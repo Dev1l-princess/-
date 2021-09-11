@@ -3,8 +3,9 @@
 		display: none;
 	}
 }
+
 @media only screen and (max-width: 1170px){
-	header {
-		display: none;
+	.our-services__body {
+		height: 200vw;
 	}
 }*/

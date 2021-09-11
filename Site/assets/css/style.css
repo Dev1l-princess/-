@@ -35,7 +35,7 @@
   padding: 0;
   border: none;
   outline: none;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 body {
@@ -89,9 +89,6 @@ header {
 	font-weight: 700;
 	text-align: center;
 	padding: 17px 0;
-}
-
-.button a{
 	color: #fff;
 }
 
@@ -153,15 +150,23 @@ margin-bottom: 30px;
 	justify-content: space-evenly;
 }
 
+.development-project__row a:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+}
+
 .development-project__button1 {
 	border: 1px solid #fff;
 	min-width: 220px;
+	transition: 0.5s ease;
 }
 
 .development-project__button2 {
 	border: 1px solid #00897b;
 	background: #00897b;
 	min-width: 220px;
+	transition: 0.5s ease;
 }
 
 /*Section: about-us*/
@@ -200,4 +205,89 @@ margin-bottom: 30px;
 
 .about-us__item img{
 	align-self: center;
+}
+
+/*Section: about-us*/
+
+.our-services {
+	min-width: 850px;
+/*	min-height: 1400px;*/
+	background: #e4fdf9;
+}
+
+.our-services__body {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50vw;
+	text-align: center;
+	min-height: 1410px;
+	padding: 0 30px;
+}
+
+.our-services__panels {
+	align-self: stretch;
+	align-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	min-height: 910px;
+}
+
+.our-services__item {
+	background: #fff;
+	width: 290px;
+	min-height: 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex: 0 1 32%;
+	transition: 0.5s ease;
+}
+
+.our-services__item img {
+	filter: invert();
+	align-self: center;
+}
+
+.our-services__button {
+	align-self: center;
+	width: 150px;
+	border: 1px solid #000;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.our-services__item:hover {
+	background: #00897b;
+	color: #fff;
+}
+
+.our-services__item:hover img{
+	filter: none;
+}
+
+.our-services__item:hover a{
+	background: #00897b;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+
+
+footer{
+	height: 120px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
 }
