@@ -1,33 +1,167 @@
-body {
-	padding: 0;
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-	color: #212121;
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
 }
 
 * {
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
 }
-
-h1, h2, h3, h4, h5, h6 {
-	padding: 0;
-	margin: 0;
+body {
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
 }
 a {
 	text-decoration: none;
+	color: #212121;
+}
+li {
+	list-style-type: none;
 }
 
-p {
-	margin: 0;
+header {
+  background: #fff;
 }
 
-ul, li {
+.header__wrapper {
+	display: flex;
+	align-items: center;
+	height:120px;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.header__nav {
+	margin-left: auto;
+}
+
+.header__list {
+	display: flex;	
+}
+
+.header__item {
+	padding-left: 30px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.development-project {
+	background: url('../img/photo.png') no-repeat center top / cover;
+}
+
+.development-project__wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.development-project__title {
+	margin: 0 auto;
+	margin-top: 20%;
+	margin-bottom: 16%;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.development-project__title h1 {
+	font-size: 60px;
+}
+
+.development-project__title span {
+	font-size: 22px;
+	margin-top: 4%;
+}
+
+.development-project__buttons {
+	margin: 0 auto;
+	margin-bottom: 23%;
+}
+
+
+
+.buttons {
+	display: flex;
+	text-transform: uppercase;
+}
+
+.btn1 {
+	color: #fff;
+	margin-right: auto;
 	display: block;
-	padding: 0;
-	margin: 0;
+	font-family:'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 17px 40px;
+	border: 1px solid #fff;
+	width: 220px;
+	transition: all 0.5s ease;
+
 }
+
+.btn1:hover {
+	background: #fff;
+    color: #000;
+}
+
+.btn2 {
+	color: #fff;
+
+	margin-left: 25px;
+	display: block;
+	font-family:'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 220px;
+	transition: all 0.5s ease;
+	background: #00897b;
+
+}
+
+.btn2:hover {
+	background: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
 
 .container {
 	width: 1170px;
