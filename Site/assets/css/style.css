@@ -81,7 +81,7 @@ header {
 	font-size: 20px;
 	font-weight: 700;
 	text-align: center;
-	padding: 17px 0;
+	padding: 17px;
 	color: #fff;
 }
 
@@ -141,17 +141,17 @@ margin-bottom: 30px;
 .development-project__row a:hover {
 	background: #fff;
 	color: #000;
-	border: 1px solid #fff;
+	border: 5px solid #fff;
 }
 
 .development-project__button1 {
-	border: 1px solid #fff;
+	border: 5px solid #fff;
 	min-width: 220px;
 	transition: 0.5s ease;
 }
 
 .development-project__button2 {
-	border: 1px solid #00897b;
+	border: 5px solid #00897b;
 	background: #00897b;
 	min-width: 220px;
 	transition: 0.5s ease;
@@ -240,7 +240,7 @@ margin-bottom: 30px;
 .our-services__button {
 	align-self: center;
 	width: 150px;
-	border: 1px solid #000;
+	border: 5px solid #000;
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -260,6 +260,38 @@ margin-bottom: 30px;
 	border: 1px solid #fff;
 	color: #fff;
 }
+
+
+.latest-works {
+	min-width: 850px;
+}
+
+.latest-works__body {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 50vw;
+	text-align: center;
+	min-height: 1410px;
+	padding: 0 30px;
+}
+
+.latest-works__buttons-row{
+	align-self: stretch;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.latest-works__button {
+	color: #212121;
+	border: 5px solid #00897b;
+}
+
+
+
 
 footer{
 	height: 120px;
