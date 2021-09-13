@@ -32,7 +32,7 @@
   padding: 0;
   border: none;
   outline: none;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 body {
@@ -49,8 +49,6 @@ a {
 li {
 	list-style-type: none;
 }
-
-/*Header*/
 
 header {
   background: #fff;
@@ -76,8 +74,6 @@ header {
 	font-size: 20px;
 }
 
-/*Section buttons*/
-
 .button {
 	display: block;
 	text-transform: uppercase;
@@ -88,8 +84,6 @@ header {
 	padding: 17px 0;
 	color: #fff;
 }
-
-/*Section titles*/
 
 .description{
 	max-width: 625px;
@@ -104,9 +98,6 @@ margin-bottom: 30px;
 	font-size: 15px;
 	font-weight: 400;
 }
-
-
-/*Section: development-project*/
 
 .development-project {
 	background: url('../img/photo.png') no-repeat center top / cover;
@@ -166,8 +157,6 @@ margin-bottom: 30px;
 	transition: 0.5s ease;
 }
 
-/*Section: about-us*/
-
 .about-us{
 	min-height: 660px;
 }
@@ -203,8 +192,6 @@ margin-bottom: 30px;
 .about-us__item img{
 	align-self: center;
 }
-
-/*Section: about-us*/
 
 .our-services {
 	min-width: 850px;
@@ -273,8 +260,6 @@ margin-bottom: 30px;
 	border: 1px solid #fff;
 	color: #fff;
 }
-
-
 
 footer{
 	height: 120px;
