@@ -2,32 +2,29 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+  src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
-  src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+  src: url('../fonts/OpenSans-SemiBold.ttf');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+  src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
 }
 
 * {
@@ -94,16 +91,16 @@ header {
 
 /*Section titles*/
 
-.title{
+.description{
 	max-width: 625px;
 }
 
-.title h3{
+.description__title{
 font-size: 30px;
 margin-bottom: 30px;
 }
 
-.title p {
+.description__subtitle {
 	font-size: 15px;
 	font-weight: 400;
 }
@@ -128,19 +125,19 @@ margin-bottom: 30px;
 	padding: 0 30px;
 }
 
-.development-project__title {
+.development-project__description {
 	color: #fff;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 }
 
-.development-project__title h1 {
+.development-project__description h1 {
 	font-size: 60px;
 	margin-bottom: 30px;
 }
 
-.development-project__title span {
+.development-project__description span {
 	font-size: 22px;
 }
 
