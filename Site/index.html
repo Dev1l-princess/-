@@ -16,9 +16,9 @@
 					</a>
 					<nav class="header__menu menu">
 						<ul class="menu__list">
-							<li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-							<li class="menu__item"><a class="menu__link" href="#">About</a></li>
-							<li class="menu__item"><a class="menu__link" href="#">Servicing</a></li>
+							<li class="menu__item"><a class="menu__link" href="#page__main-block">Home</a></li>
+							<li class="menu__item"><a class="menu__link" href="#page__about-us">About</a></li>
+							<li class="menu__item"><a class="menu__link" href="#page__our-services">Servicing</a></li>
 							<li class="menu__item"><a class="menu__link" href="#">Portfolio</a></li>
 							<li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
 							<li class="menu__item"><a class="menu__link" href="#">Contact Us</a></li>
@@ -29,7 +29,7 @@
 			</header>
 			<main class="page">
 
-				<section class="page__main-block main-block">
+				<section id="page__main-block" class="main-block">
 					<div class="main-block__container _container">
 						<div class="main-block__body">
 							<div class="main-block__description">
@@ -50,7 +50,7 @@
 
 
 
-				<section class="page__about-us about-us">
+				<section id="page__about-us" class="about-us">
 					<div class="about-us__container _container">
 						<div class="about-us__body">
 							<div class="about-us__description description">
@@ -78,86 +78,52 @@
 					</div>	
 				</section>
 
-				<section class="our-services">
-					<div class="our-services__body">
-						<div class="description">
-							<h3 class="description__title">Our Services</h3>
-							<p class="description__subtitle">Lorem ipsom dolor sit amet, consectetur adipisicing elit, sed do eismod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-						</div>
-						<div class="our-services__panels">
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">
-								<h4>Research</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
+				<section id="page__our-services" class="our-services">
+					<div class="our-services__container _container">
+						<div class="our-services__body">
+							<div class="our-services__description description">
+								<h3 class="description__title">Our Services</h3>
+								<p class="description__subtitle">Lorem ipsom dolor sit amet, consectetur adipisicing elit, sed do eismod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 							</div>
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">
-								<h4>Portfolio</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
-							</div>
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">
-								<h4>Support</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
-							</div>
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">
-								<h4>Documentation</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
-							</div>
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">
-								<h4>Development</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
-							</div>
-							<div class="our-services__item">
-								<img src="assets/img/smartphone.png" alt="smartphone">	
-								<h4>Design</h4>
-								<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
-								<a href="#" class="our-services__button button">Read more</a>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="latest-works">
-					<div class="latest-works__body">
-						<div class="description">
-							<h3 class="description__title">Latest Works</h3>
-							<span class="description__subtitle">Lorem ipsom dolor sit amet, consectetur adipisicing elit, sed do eismod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
-						</div>
-						<div class="latest-works__buttons-row">
-							<a href="#" class="latest-works__button button">All</a>
-							<a href="#" class="latest-works__button button">Web design</a>
-							<a href="#" class="latest-works__button button">UI/UX design</a>
-							<a href="#" class="latest-works__button button">Mokcups</a>
-						</div>
-						<div class="latest-works__img-panels">
-							<div class="latest-works__panel">
-								<img src="assets/img/watch.png" alt="watch">
-							</div>
-							<div class="latest-works__panel">
-								<img src="assets/img/pass.png" alt="pass">
-							</div>
-							<div class="latest-works__panel">
-								<img src="assets/img/clothes.png" alt="clothes">
-							</div>
-							<div class="latest-works__panel">
-								<img src="assets/img/flask.png" alt="flask">
-							</div>
-							<div class="latest-works__panel">
-								<img src="assets/img/bottle.png" alt="bottle">
-							</div>
-							<div class="latest-works__panel">
-								<img src="assets/img/package.png" alt="package">
+							<div class="our-services__panels panels">
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">
+									<h4 class="panels__title">Research</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">
+									<h4 class="panels__title">Portfolio</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">
+									<h4 class="panels__title">Support</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">
+									<h4 class="panels__title">Documentation</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">
+									<h4 class="panels__title">Development</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
+								<div class="panels__item">
+									<img class="panels__image" src="assets/img/smartphone.png" alt="smartphone">	
+									<h4 class="panels__title">Design</h4>
+									<p class="panels__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.</p>
+									<a href="#" class="panels__button button">Read more</a>
+								</div>
 							</div>
 						</div>
-						<a href="#" class="latest-works__button button">wiew all</a>
 					</div>
 				</section>
 
