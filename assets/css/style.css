@@ -199,7 +199,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 -15px;
 }
 
 .about-us__body > * {
@@ -210,37 +209,8 @@ main {
 	display: flex;
 	justify-content: space-evenly;
 	align-self: stretch;
-	padding: 0 15px;
 	flex: 0 1 33.333%;
 	flex-wrap: wrap;
-}
-
-.column__item {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	max-width: 260px;
-	padding: 0 15px 100px 15px;
-}
-
-.column__item > *:not(:last-child){
-	padding: 0 0 35px 0;
-}
-
-.column__title {
-	font-weight: 600;
-	font-size: 20px;
-	line-height: calc(22 / 20 * 100%);
-}
-
-.column__text {
-	font-weight: 400;
-	font-size: 15px;
-	line-height: calc(25 / 15 * 100%);
-}
-
-.column__image{
-	align-self: center;
 }
 
 .button {
@@ -256,7 +226,6 @@ main {
 
 .description{
 	max-width: 625px;
-	
 }
 
 .description__title{
@@ -281,7 +250,6 @@ text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0 -15px;
 }
 
 .our-services__body > * {
@@ -295,7 +263,7 @@ text-align: center;
 	flex-wrap: wrap;
 }
 
-.panels__item {
+.panel {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -306,48 +274,47 @@ text-align: center;
 	transition: 0.3s ease;
 }
 
-.panels__item > *:not(:last-child){
+.panel > *:not(:last-child){
 	padding: 0 0 35px 0;
 }
 
-.panels__image{
+.panel__image{
 	align-self: center;
-	filter: invert();
 	transition: 0.3s ease;
 }
 
-.panels__title {
+.panel__title {
 	font-weight: 600;
 	font-size: 20px;
 	line-height: calc(22 / 20 * 100%);
 }
 
-.panels__text {
+.panel__text {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: calc(25 / 15 * 100%);
 }
 
-.panels__button {
+.panel__button {
 	align-self: center;
 	border: 2px solid #212121;
 	color: #212121;
 	transition: 0.3s ease;
 }
 
-.panels__item:hover {
+.panel:hover {
 	background: #00897b;
 	color: #fff;
 }
 
-.panels__item:hover  .panels__button{
+.panel:hover  .panel__button{
 	border: 2px solid #fff;
 	background: #00897b;
 	color: #fff;
 }
 
-.panels__item:hover  .panels__image{
-	filter: none;
+.panel:hover  .panel__image{
+	filter: invert();
 }
 
 footer{
@@ -381,10 +348,6 @@ footer h6 {
 		padding: 50px 0 0 0;
 	}
 
-	.column__item {
-		padding: 0 15px 50px 15px;
-	}
-
 	.our-services__body {
 		padding: 50px 0 0 0;
 	}
@@ -405,4 +368,4 @@ footer h6 {
 	.button {
 		font-size: 15px;
 	}
-}
+} 
