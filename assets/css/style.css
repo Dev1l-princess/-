@@ -331,6 +331,152 @@ footer h6 {
 	font-size: 20px;
 }
 
+
+
+.latest-works__body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.latest-works__body > * {
+	padding-bottom: 100px;
+}
+
+.latest-works__buttons-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.latest-works__button {
+	color: #212121;
+	border: 2px solid #00897b;
+	margin: 10px;
+	transition: 0.3s ease;
+}
+
+.latest-works__button:hover {
+	background: #00897b;
+	color: #fff;
+}
+
+.latest-works__img-panels {
+	display: flex;
+	justify-content: space-evenly;
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+.latest-works__img-panel {
+	margin: 15px;
+	max-width: 360px;
+	
+}
+
+.latest-works__img-panel img {
+	width:100%;
+}
+
+.latest-works__button_green {
+	border: 2px solid #00897b;
+	background: #00897b;
+	transition: 0.3s ease;
+}
+
+.latest-works__button_green:hover {
+	border: 2px solid #212121;
+	background: #fff;
+	color: #212121;
+}
+
+.pricing-plan {
+	background: #f0f1f1;
+}
+
+.pricing-plan__body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pricing-plan__body > * {
+	padding-bottom: 100px;
+}
+
+.team-member {
+
+}
+
+.team-member__body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.team-member__body > * {
+	padding-bottom: 100px;
+}
+
+.blog {
+	background: #e4fdf9;
+}
+
+.blog__body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog__body > * {
+	padding-bottom: 100px;
+}
+
+
+
+
+.contact-us {
+	position: relative;
+}
+
+.contact-us__body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+	
+}
+
+.contact-us__body > * {
+	padding-bottom: 100px;
+}
+
+.contact-us__description{
+	color: #fff;
+}
+
+.contact-us__background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.contact-us__background img {
+	object-position: bottom;
+}
+
+
+
 @media screen and (max-width:500px) {
 	.menu__list {
 		flex-direction: column;
