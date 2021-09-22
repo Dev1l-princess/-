@@ -408,6 +408,8 @@ footer h6 {
 	padding-bottom: 100px;
 }
 
+
+
 .team-member {
 
 }
@@ -422,6 +424,46 @@ footer h6 {
 .team-member__body > * {
 	padding-bottom: 100px;
 }
+
+.team-member__member-panels {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.team-member__member-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+	max-width: 360px;
+}
+
+.team-member__member-panel > * {
+	margin-bottom: 15px;
+}
+
+.team-member__member-photo {
+	width: 100%;
+}
+
+.team-member__member-name {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.team-member__member-post {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.team-member__link-row {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+
 
 .blog {
 	background: #e4fdf9;
@@ -438,6 +480,53 @@ footer h6 {
 	padding-bottom: 100px;
 }
 
+.post {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post_reverse {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+.post__content > * {
+	margin-bottom: 25px;	
+}
+
+.post__img {
+	margin: 0px 15px;
+	max-width: 570px;
+	width: 100%;
+}
+
+.post__content {
+	padding: 60px 100px 60px 15px;
+	max-width: 570px;
+	width: 100%;
+}
+
+.post__title {
+	font-size: 25px;
+	font-weight: 600;
+	color: #212121;
+}
+
+.post__info span{
+	font-size: 17px;
+	font-weight: 600;
+	margin: 0px 40px 0px 10px;
+}
+
+.post__text {
+	font-size: 15px;
+	font-weight: 400;
+}
+.blog__button {
+	background: #00897b;
+	border: 2px solid #00897b;
+}
 
 
 
