@@ -921,4 +921,7 @@ footer h6 {
   	margin: 0;
 	}
 
+	.latest-works__buttons-row{
+		flex-direction: column;
+	}
 } 
